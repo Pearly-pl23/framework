@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 public class Loginpage {
 
 	WebDriver driver;
-//this is a new commit by pearly
+
 	public Loginpage(WebDriver driver) {
 		this.driver = driver;
 
