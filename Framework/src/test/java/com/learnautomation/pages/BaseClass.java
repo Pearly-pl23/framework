@@ -35,7 +35,7 @@ public class BaseClass {
 		report = new ExtentReports();
 		report.attachReporter(extent);
 	}
-//beforeclass
+//beforeclass..
 	@BeforeClass
 	public void setup() {
 		driver = Browserfactory.startApplication(driver, config.getBrowser(), config.getStatingURL());
